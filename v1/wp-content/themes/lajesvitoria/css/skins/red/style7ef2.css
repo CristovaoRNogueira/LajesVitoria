@@ -1,0 +1,310 @@
+
+/********************** Backgrounds **********************/
+
+	#Header #top_bar {
+		background-color: #fff;
+	}
+
+	#Footer {
+		background-color: #27292D;
+	}
+	
+
+/********************* Colors *********************/
+
+/* Content font */
+
+	body, .ui-tabs .ui-tabs-nav li a, .ui-accordion h3 a,
+	.widget_links ul li a, .widget_meta ul li a {
+		color: #646464;
+	}
+	
+/* Links color */
+
+	a, a:visited, .widget_links ul li a:hover, .widget_meta ul li a:hover, .testimonial .rslides_tabs li.rslides_here a, .testimonial .rslides_tabs li a:hover,
+	.pager a.page.active, .pager a:hover.page, .Our_clients_slider a:hover.Our_clients_slider_prev, .Our_clients_slider a:hover.Our_clients_slider_next,
+	.team .links a:hover.link {
+		color: #e31e1e;	
+	}
+	
+	a:hover {
+		color: #cc1515;
+	}
+	
+/* Strong (dark) */
+	.Recent_comments ul li strong, #Content .Latest_posts ul li a.title,  
+	#Content .Latest_posts ul li p i, .Recent_comments ul li p strong,
+	.Recent_comments ul li p i, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+	.ui-accordion h3.ui-state-active a, .Twitter ul li span {
+		color: #31373c;
+	}
+	
+/* Dark blue */
+	
+	blockquote div.text p, .get_in_touch li.phone p, .pricing-box .plan-inside ul li strong,
+	.error h4, .team p, blockquote p.author span {
+		color: #4E0F0F;
+	}
+	
+/* Grey notes */
+
+	.Twitter ul li > a, .Recent_comments li span.date, .Latest_posts span.date, .post .desc .footer .comments i,
+	.wp-caption .wp-caption-text, .pricing-box .plan-header .period, .post .meta, .post .desc .r_meta .comments i,
+	.widget_categories li, .testimonial .rslides_tabs li a, .pager a.page,
+	.Our_clients_slider a.Our_clients_slider_prev, .Our_clients_slider a.Our_clients_slider_next, .team .links a.link { 
+		color: #A3A3A3;
+	}
+	
+/* Frames and borders color */
+
+	.Recent_comments li, .Latest_posts li, .get_in_touch li, .pricing-box .plan-inside ul li, 
+	.pricing-box, .ui-widget-header, #Content .ui-tabs .ui-tabs-nav, .ui-tabs .ui-tabs-panel,
+	.ui-tabs .ui-tabs-nav li, .ui-accordion .ui-accordion-header, .ui-accordion .ui-accordion-content, 
+	.gallery .gallery-item .gallery-icon, .post .desc .footer, .team, .single-post .tag-cat,
+	#comments .commentlist > li .photo, #comments .commentlist > li, 
+	#comments .commentlist li .comment-body, .Twitter ul li, .Flickr .flickr_badge_image a,
+	.single-post .post .category, .single-post .post .date, .pager, .single-portfolio .photo,
+	.single-portfolio .sp-inside .sp-inside-right, table thead th, table tbody td,
+	.widget_links ul li a, .widget_meta ul li a, .our-offer .boxes .box.first, .our-offer .boxes .box.last, .testimonial .rslides_tabs li a,
+	.Our_clients_slider a.Our_clients_slider_prev, .Our_clients_slider a.Our_clients_slider_next, .team .links a.link {
+		border-color: #ebebeb;
+	}
+	
+/* Headings font */
+
+	h1 { color: #39464e; }
+	h2 { color: #39464e; }
+	h3 { color: #39464e; }
+	h4 { color: #A24C4C; }
+	h5 { color: #A24C4C; }
+	h6 { color: #45464b; }
+
+/* Menu color */
+
+	#Header #menu > ul > li > a {
+		color: #3d3d3d;
+	}
+	
+	#Header #menu > ul > li > a span {
+		color: #c5c4c4;
+	}
+	
+	#Header #menu > ul > li.current-menu-item > a,
+	#Header #menu > ul > li.current_page_item > a,
+	#Header #menu > ul > li.current-menu-ancestor > a,
+	#Header #menu > ul > li.current_page_ancestor > a {
+		color: #D00C0C;
+	}
+	
+	#Header #menu > ul > li.current-menu-item > a span,
+	#Header #menu > ul > li.current_page_item > a span,
+	#Header #menu > ul > li.current-menu-ancestor > a span,
+	#Header #menu > ul > li.current_page_ancestor > a span {
+		color: #D00C0C;
+	}
+	
+	#Header #menu > ul > li > a:hover,
+	#Header #menu > ul > li.hover > a {
+		color: #D00C0C;
+	}
+	
+	#Header #menu > ul > li.submenu > a:hover,
+	#Header #menu > ul > li.submenu.hover > a {
+		color: #D00C0C;
+	}
+	
+	#Header #menu > ul > li > a:hover span,
+	#Header #menu > ul > li.hover > a span {
+		color: #8E0D0D;
+	}
+	
+	#Header #menu > ul > li ul {
+		background: #BF1C1C;
+		border-top-color: #E02E2E;
+	}
+		
+	#Header #menu > ul > li ul li a {
+		color: #fff;
+		border-color: #D53535;
+	} 
+	
+	#Header #menu > ul > li ul li a:hover, 
+	#Header #menu > ul > li ul li.hover > a {
+		color: #e8c9c9;
+	}
+	
+/* Header addons */
+	
+	#Header .addons p.phone i,
+	#Header .addons p.mail i {
+		color: #BE5050;
+	}
+	
+	#Header .addons p.phone,
+	#Header .addons p.mail a {
+		color: #933939;
+	}
+	
+	#Header .addons p.phone span {
+		color: #BE5050;
+	}	
+	
+	/* Subheader */	
+	#Subheader h1 { 
+		color: #9A1919;
+	}
+	
+	#Subheader ul.breadcrumbs li,
+	#Subheader ul.breadcrumbs li a { 
+		color: #E31E1E;
+	}
+
+/* Buttons */
+	a.button, input[type="submit"], input[type="reset"], input[type="button"],
+	#Footer a.button, #Footer input[type="submit"], #Footer input[type="reset"], #Footer input[type="button"] {
+		background-color: #EE3434;
+		border-color: #cc1515;
+		color: #FFFFFF;
+	}
+	a:hover.button, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover,
+	#Footer a:hover.button, #Footer input[type="submit"]:hover, #Footer input[type="reset"]:hover, #Footer input[type="button"]:hover {
+		background-color: #E02E2E;
+		border-color: #C52323;
+		color: #FFFFFF;
+	}
+	
+/* Go to top */
+	a#back_to_top {
+		color: #000;
+	}
+	a:hover#back_to_top {
+		color: #e31e1e;
+	}
+	
+/* Footer headers and text */
+	#Footer { 
+		color: #F1F1F1;
+	}
+	
+	#Footer h1, #Footer h2, #Footer h3, #Footer h4, #Footer h5, #Footer h6  {
+		color: #BABABA;
+	}
+	
+	#Footer a { 
+		color: #FB5B5B;
+	}
+	
+	#Footer a:hover { 
+		color: #DC3939;
+	}
+	
+/* Footer strong */
+	#Footer .Twitter li span, #Footer .copyrights strong, #Footer .Latest_posts ul li a.title, 
+	#Footer .Latest_posts ul li p i, #Footer .Recent_comments ul li p strong,
+	#Footer .Recent_comments ul li p i, #Footer .widget_calendar caption {
+		color: #fff;
+	}
+	
+/* Footer grey notes */
+	#Footer .Twitter ul li > a, #Footer .Recent_comments li span.date, #Footer .Latest_posts span.date {
+		color: #e0e0e1;
+	}
+	
+/* Footer frames, background & border color */
+	#Footer .Twitter li, #Footer .Flickr .flickr_badge_image a, #Footer .Recent_comments ul li, #Footer .bottom_addons,
+	#Footer .Latest_posts ul li, #Footer .widget ul.menu li a, #Footer .widget_meta ul li a, #Footer table thead th, #Footer table tbody td {
+		border-color: #383e4a; 
+	}
+
+/* Footer menu */
+	#Footer .bottom_addons .menu_bottom > ul > li > a {
+		color: #fff;
+	}
+	
+/* Blog */
+	.post .image { 
+		border-color: #DAE1EA;
+	}
+	.post .date {
+		color: #E32C2C;
+	}
+	.post .desc .meta .year, .post .desc .meta i {
+		color: #7F8E9A;
+	}
+	.post .desc .meta .month {
+		color: #7B1111;
+	}
+	
+/* Portfolio */	
+	.portfolio_item a i, .wp-caption .photo a i {
+		color: #D00C0C;
+	}
+	
+/* Faq & Accordion */
+	.accordion .question h5, .faq .question h5 { 
+		color: #474747;
+		border-color: #DD3838;
+	}
+
+/* Tabs */
+	.ui-tabs .ui-tabs-panel, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-active a { 
+		background-color: #fff !important; 
+	}
+	.ui-tabs .ui-tabs-nav li a {
+		color: #343434;
+	}
+	.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-active a {
+		color: #343434;
+	}
+	
+/* Call to action */
+	.call_to_action {
+		border-bottom-color: #DD3838 !important;
+	}
+	.call_to_action h4 {
+		color: #800D0D;
+	}
+	.call_to_action h4 span {
+		color: #3E0808;
+	}
+	
+/* Get in touch */
+	.get_in_touch .box_callus p {
+		color: #4E0F0F;
+	}
+	.get_in_touch .box_callus p span {
+		color: #DD3838;
+	}
+	
+/* Team */
+	.team .photo {
+		border-color: #E02E2E;
+	}
+	
+/* Map */
+	.google-map-area {
+		border-color: #dae1ea;
+	}
+	
+/* Features list */
+	.features-list ul li span {
+		color: #800D0D;
+	}
+	
+/* Submenu */
+	.widget ul.menu li a {
+		background: #E13030;
+		color: #fff;
+		border-bottom-color: #E65353;
+		border-left-color: #BA1A1A;
+	}
+	.widget ul.menu li a i {
+		color: #fff;
+	}
+	.widget ul.menu li a:hover, .widget ul.menu li.current_page_item a {
+		background: #BA1A1A;
+		color: #fff;
+	}
+	.widget ul.menu li.current_page_item a i, .widget ul.menu li a:hover i {
+		color: #fff;
+	}

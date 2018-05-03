@@ -1,0 +1,26 @@
+/*
+Theme Name: Marilândia Lajes
+Theme URI: http://marilandialajes.com.br
+Author: WebIndex
+Author URI: http://webindex.net.br
+Description: Marilândia Lajes - Premoldados Marilândia.  Na Marilândia Lajes o cliente é tratado com toda a seriedade e compromisso, visto que nós colocamos a completa disposição do mesmo, a fim de nos garantirmos como exemplo de qualidade no segmento, buscando completa satisfação daqueles que são nossos parceiros. Nosso atendimento de qualidade leva ainda mais confiança aos nossos clientes. Priorizando sempre a qualidade no atendimento aos clientes e respeitando as necessidades de cada um deles, a Marilândia Lajes, utiliza sempre produtos da mais alta qualidade, respeitando as características de cada usuário, uma vez que a empresa busca fazer sempre o melhor possível.
+
+Faça-nos uma visita e conheça nossa estrutura de atendimento.
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: marilandia-lajes, premoldados, marilandia, produtos, fabrica.
+Version: 1.5
+*/
+
+@import url("css/base.css");
+@import url("css/buttons.css");
+@import url("css/skeleton.css");
+@import url("css/layout.css");
+@import url("css/variables.css");
+@import url("css/shortcodes.css");
+@import url("css/animations.css");
+@import url("css/font-awesome.css");
+@import url("css/fonts.css");
+
+/* If you want to add your own css code, please do it in css/custom.css */
+@import url("css/custom.css");

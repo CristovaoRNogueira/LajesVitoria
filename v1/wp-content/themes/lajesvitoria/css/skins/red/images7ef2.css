@@ -1,0 +1,111 @@
+/* Blockquote */
+blockquote div.text { background: #fff; border: 1px solid #EBEBEB; }
+blockquote div.text p { background: url("images/blockquote.png") no-repeat 20px 15px; }
+blockquote p.author { background: url("images/blockquote_arrow.png") no-repeat 30px top; }
+
+/* Menu */
+#Header #menu > ul { background: url("images/menu_sep.png") no-repeat left bottom; }
+#Header #menu > ul > li { background: url("images/menu_sep.png") no-repeat right bottom; }
+#Header #menu > ul > li > a span.border { background: url("images/menu_border.png") no-repeat center top; }
+
+/* Featues list */
+.features-list ul li { background: url("images/features_list_border.png") no-repeat left top; }
+.features-list ul li span { background: url("images/features_list_box.png") no-repeat left top; }
+
+/* Recent comments */
+.Latest_posts ul li .photo span.comments { background: url("images/comments.png") repeat-x left top; color: #fff; text-shadow: 1px 1px 0 #3A0E0E; }
+
+/* Article box */
+.article_box { background: url("images/article_box_sep.png") no-repeat left center; }
+
+/* Blog */
+.post .desc .meta { background: url("images/bg_meta.png") no-repeat left top; }
+
+/* Twitter */
+.Twitter ul li span { background: url("images/icons/ico_twitter.png") no-repeat left 5px; }
+
+/* Pricing box */
+.pricing-box { background: #fff; }
+.pricing-box .plan-header { background: url("images/pricing_bg.png") no-repeat bottom center; border-color: #fff; }
+.pricing-box .plan-header h3 { color: #4E0F0F; }
+.pricing-box .plan-header .price { color: #E13030; background: url("images/pricing_sep.png") no-repeat top center; }
+.pricing-box .plan-header .price sup { color: #B13030; }
+.pricing-box-featured .plan-header { background: url("images/pricing_bg_featured.png") no-repeat bottom center; border-color: #E02E2E; }
+.pricing-box-featured .plan-header .price { color: #B10202; }
+.pricing-box-featured .plan-header .price sup { color: #B13030; }
+.pricing-box-featured .plan-header h3 { color: #4E0F0F; }
+
+/* Slider */
+.tp-leftarrow.default { background: url("images/large_left.png") no-repeat 0 0 !important; }
+.tp-rightarrow.default { background: url("images/large_right.png") no-repeat 0 0 !important; }
+.tp-leftarrow.default:hover, .tp-rightarrow.default:hover {	background-position:bottom left !important; }
+
+/* Portfolio & Captions mask */
+.portfolio_item .mask, .wp-caption .mask { background: url("images/photo_overlay.png") no-repeat left top; }
+
+/* Search */
+#Top_bar #searchform input[type="submit"], .widget_search form input[type="submit"] { background: url("images/search_submit.png") no-repeat !important; }
+
+/* Menu */
+#Header #menu > ul > li ul .arrow { background: url("images/menu_arrow.html") no-repeat; }
+
+/* Subheader*/
+#Subheader .sixteen { background: url("images/subheader_bg.png") no-repeat center bottom; }
+
+/* Widgets */
+.widget-area { background: url("images/bg_black.png"); }
+.widget { background: url("images/features_list_border.png") no-repeat top left; }
+
+/* Faq */
+.faq .question h5 span.icon { background: url("images/faq_inactive.png") no-repeat; }
+.faq .active h5 span.icon { background: url("images/faq_active.png") no-repeat; }
+
+/* Accordion */
+.accordion .question h5, .faq .question h5 { background: url("images/bg_tabs.png") repeat-x top left; }
+.accordion .question h5 span.icon { background: url("images/accordion_plus.png") no-repeat; }
+.accordion .active h5 span.icon { background: url("images/accordion_minus.png") no-repeat; }
+
+/* Tags */
+.post .desc p.tags a, .widget_mfn_tag_cloud a { color: #767676 !important; background: #F8F8F8; text-shadow: 1px 1px 0 #fff; border: 1px solid #E8E8E8; -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.07); -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.07); box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.07); }
+.post .desc p.tags a span, .widget_mfn_tag_cloud a span { background: #F8F8F8; }
+.post .desc p.tags a:hover, .widget_mfn_tag_cloud a:hover { color: #1b1b1b !important; border: 1px solid #d5d5d5; }
+.post .desc p.tags a:hover span, .widget_mfn_tag_cloud a:hover span {}
+
+/* Tabs */
+.ui-tabs .ui-tabs-nav { background: url("images/bg_tabs.png") repeat-x top left; }
+.ui-tabs .ui-tabs-nav li { background: url("images/bg_tabs_sep.png") no-repeat right bottom; }
+
+@media only screen and (max-width: 767px) {
+	.ui-tabs .ui-tabs-nav li { background: url("images/bg_tabs.png") repeat-x top left; }
+	.ui-tabs .ui-tabs-nav li.last { background: inherit !important; }
+}
+
+/*  */
+.widget_calendar caption { background: url(../../ui/images/bg_widget_header.png) no-repeat 0 0; }
+
+/* HR */
+hr { background: url("images/hr.png") repeat-x left top; }
+
+/* Submenu */
+.widget ul.menu li a i { color: D5D5D5; }
+
+/* Pager */
+.pager a.page { background: url("images/pager.png") no-repeat left top; }
+
+/* Our team */
+.team .links { background: url("images/pricing_sep.png") no-repeat top center; }
+.team .links a.link { background: url("images/pager.png") no-repeat left top; }
+
+/* Box shadows */
+.get_in_touch .box { background: url("images/box_shadow_lt.png") no-repeat left top; }
+#Footer .widgets, #Footer .bottom_addons { background: url("images/box_shadow_cb.png") no-repeat center top; }
+
+/* Call to action */
+.call_to_action .inside { background: url("images/call_to_action_bg.png") repeat-x left bottom; }
+
+/* Menu bottom */
+#Footer .bottom_addons .menu_bottom > ul > li > a span { background: url("images/menu_bottom_arrow.png") no-repeat; }
+
+@media only screen and (max-width: 959px) {
+	
+}

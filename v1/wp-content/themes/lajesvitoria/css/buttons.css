@@ -1,0 +1,69 @@
+/* Button red */
+a.button.button_red {
+	background-color: #F73A3A;
+	border-color: #E72F2F;
+	color: #FFFFFF;
+}
+
+
+a:hover.button.button_red {
+	background-color: #EB2727;
+	border-color: #D22929;
+	color: #FFFFFF;
+}
+
+/* Button orange */
+
+a.button.button_orange {
+	background-color: #FF8636;
+	border-color: #f17523;
+	color: #FFFFFF;
+}
+
+a:hover.button.button_orange {
+	background-color: #FF6E1B;
+	border-color: #ef6516;
+	color: #FFFFFF;
+}
+
+/* Button green */
+
+a.button.button_green {
+	background-color: #B0D75D;
+	border-color: #95b84d;
+	color: #FFFFFF;
+}
+
+a:hover.button.button_green {
+	background-color: #95BB47;
+	border-color: #8BB03E;
+	color: #FFFFFF;
+}
+
+/* Button blue */
+
+a.button.button_blue {
+	background-color: #66bcf1;
+	border-color: #3695c7;
+	color: #FFFFFF;
+}
+
+a:hover.button.button_blue {
+	background-color: #4AABE7;
+	border-color: #44A2DD;
+	color: #FFFFFF;
+}
+
+/* Button seagreen */
+
+a.button.button_yellow {
+	background-color: #FFCB3E;
+	border-color: #E7961F;
+	color: #FFFFFF;
+}
+
+a:hover.button.button_yellow {
+	background-color: #F7B726;
+	border-color: #E0911B;
+	color: #FFFFFF;
+}

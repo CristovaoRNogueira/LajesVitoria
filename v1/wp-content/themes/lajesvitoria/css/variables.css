@@ -1,0 +1,124 @@
+/********************** Rounded corners **********************/
+
+/* Input */
+	input[type="text"], input[type="password"], input[type="email"], textarea, select {
+		-webkit-border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;
+	}
+
+ /* Button */
+	a.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+		-webkit-border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;
+	}
+
+
+/********************* Colors *********************/
+
+/* Headings font */
+	h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+		font-weight: bold;
+	}
+
+/* Reply button */
+	#comments .commentlist > li .reply a.comment-reply-link {
+		background-color: #366593;
+		color:#fff !important;
+	}
+	
+/* Inputs */
+	input[type="text"], input[type="password"], input[type="email"], textarea, select {
+		background: #F2F2F2;
+		color: #969696;
+		border: 1px solid #d8d8d8;
+		-moz-box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.10);
+		-webkit-box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.10);
+		box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.10);
+	}
+	
+/* Footer frames, background & border color */
+	#Footer .Flickr .flickr_badge_image a  {
+		background: #fff; 
+	}
+	
+	
+/* Footer submenu */
+	#Footer .widget ul.menu li a {
+		background: #449cd8;
+		color: #fff;
+		border-bottom-color: #71B0DC;
+		border-left-color: #24577B;
+	}
+	#Footer .widget ul.menu li a i {
+		color: #fff;
+	}
+	#Footer .widget ul.menu li a:hover, #Footer .widget ul.menu li.current_page_item a {
+		background: #24577B;
+		color: #fff;
+	}
+	#Footer .widget ul.menu li.current_page_item a i, #Footer .widget ul.menu li a:hover i {
+		color: #fff;
+	}
+	
+/* Portfolio */	
+	.portfolio_item a i, .wp-caption .photo a i {
+		text-shadow: 1px 1px 0 #fff;
+	}
+	.Projects_header .categories li.current-cat a, .Projects_header .categories li a:hover {
+		background: #fff;
+		border-color: #d9d9d9;
+		color: #31373c;
+		text-shadow: 1px 1px 0 #fff;
+	}
+	.Projects_header .categories li a {
+		color: #676f76;
+		text-shadow: 1px 1px 0 #fff;
+	}
+	.portfolio_item .photo, .wp-caption .photo, .wp-caption > img, .wp-caption > a > img {
+		border-color: #ebebeb;
+		background: #fff;
+	}	
+	
+/* Tabs */
+	.ui-tabs .ui-tabs-panel, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-active a { 
+		text-shadow: none;
+	}
+	.ui-tabs .ui-tabs-nav li a {
+		text-shadow: 1px 1px 0px #fff;
+	}
+	
+/* Call to action */
+	.call_to_action {
+		background: #fff;
+		border-color: #cacaca !important;
+	}
+	.call_to_action h4 {
+		text-shadow: 1px 1px 0 #fff;
+	}
+	
+/* Get in touch */
+	.get_in_touch li i {
+		color: #31373C;
+	}	
+	.get_in_touch .box_callus p i {
+		color: #000;
+	}
+	.get_in_touch strong {
+		color: #1b1b1b;
+	}
+	
+/* Team */
+	.team {
+		background: #fff;
+	}
+	
+/* Features list */
+	.features-list ul li span {
+		text-shadow: 1px 1px 0 #fff;
+	}
+	.features-list ul li strong {
+		color: #000;
+	}
+	
